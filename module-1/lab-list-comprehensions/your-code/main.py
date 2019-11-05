@@ -74,7 +74,11 @@ print(concat)
 
 # 10. Use a list comprehension to extract and print all values from the data set that are between 0.7 and 0.75.
 
+select_data=[]
 
+for i in range(len(data)):
+	for j in range(len(data.columns)):
+		if data[str
 
 
 
